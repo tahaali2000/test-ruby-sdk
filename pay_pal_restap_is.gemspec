@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name = 'test-sdk'
-  s.version = '1.2.6'
-  s.summary = 'tr'
-  s.description = 'TEST'
+  s.version = '1.2.3'
+  s.summary = 'twest'
+  s.description = 'TEst'
   s.authors = ['taha']
   s.email = ['taha.ali@apimatic.io']
-  s.homepage = 'https://github.com/tahaali2000/testerrr-python-sdk'
+  s.homepage = 'https://packagist.org/profile/'
   s.licenses = ['MIT']
   s.metadata  = {
 }

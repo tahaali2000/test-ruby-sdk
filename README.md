@@ -12,20 +12,20 @@ Find out more here: [https://developer.paypal.com/docs/api/orders/v2/](https://d
 Install the gem from the command line:
 
 ```bash
-gem install test-sdk -v 1.2.6
+gem install test-sdk -v 1.2.3
 ```
 
 Or add the gem to your Gemfile and run `bundle`:
 
 ```ruby
-gem 'test-sdk', '1.2.6'
+gem 'test-sdk', '1.2.3'
 ```
 
-For additional gem details, see the [RubyGems page for the test-sdk gem](https://rubygems.org/gems/test-sdk/versions/1.2.6).
+For additional gem details, see the [RubyGems page for the test-sdk gem](https://rubygems.org/gems/test-sdk/versions/1.2.3).
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -41,8 +41,8 @@ The following parameters are configurable for the API Client:
 | retry_statuses | `Array` | A list of HTTP statuses to retry. <br> **Default: [408, 413, 429, 500, 502, 503, 504, 521, 522, 524, 408, 413, 429, 500, 502, 503, 504, 521, 522, 524]** |
 | retry_methods | `Array` | A list of HTTP methods to retry. <br> **Default: %i[get put get put]** |
 | http_callback | `HttpCallBack` | The Http CallBack allows defining callables for pre and post API calls. |
-| logging_configuration | [`LoggingConfiguration`](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/logging-configuration.md) | The SDK logging configuration for API calls |
-| client_credentials_auth_credentials | [`ClientCredentialsAuthCredentials`](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/auth/oauth-2-client-credentials-grant.md) | The credential object for OAuth 2 Client Credentials Grant |
+| logging_configuration | [`LoggingConfiguration`](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/logging-configuration.md) | The SDK logging configuration for API calls |
+| client_credentials_auth_credentials | [`ClientCredentialsAuthCredentials`](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/auth/oauth-2-client-credentials-grant.md) | The credential object for OAuth 2 Client Credentials Grant |
 
 The API client can be initialized as follows:
 
@@ -80,30 +80,30 @@ The SDK can be configured to use a different environment for making API calls. A
 
 This API uses the following authentication schemes.
 
-* [`Oauth2 (OAuth 2 Client Credentials Grant)`](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/auth/oauth-2-client-credentials-grant.md)
+* [`Oauth2 (OAuth 2 Client Credentials Grant)`](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/auth/oauth-2-client-credentials-grant.md)
 
 ## List of APIs
 
-* [Orders](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/controllers/orders.md)
-* [Payments](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/controllers/payments.md)
-* [Vault](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/controllers/vault.md)
+* [Orders](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/controllers/orders.md)
+* [Payments](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/controllers/payments.md)
+* [Vault](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/controllers/vault.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [AbstractLogger](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/abstract-logger.md)
-* [LoggingConfiguration](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/logging-configuration.md)
-* [RequestLoggingConfiguration](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/request-logging-configuration.md)
-* [ResponseLoggingConfiguration](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/response-logging-configuration.md)
+* [AbstractLogger](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/abstract-logger.md)
+* [LoggingConfiguration](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/logging-configuration.md)
+* [RequestLoggingConfiguration](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/request-logging-configuration.md)
+* [ResponseLoggingConfiguration](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/response-logging-configuration.md)
 
 ### HTTP
 
-* [HttpResponse](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/http-response.md)
-* [HttpRequest](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/http-request.md)
+* [HttpResponse](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/http-response.md)
+* [HttpRequest](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/http-request.md)
 
 ### Utilities
 
-* [ApiHelper](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/api-helper.md)
-* [DateTimeHelper](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.6/doc/date-time-helper.md)
+* [ApiHelper](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/api-helper.md)
+* [DateTimeHelper](https://www.github.com/tahaali2000/test-ruby-sdk/tree/1.2.3/doc/date-time-helper.md)
 
