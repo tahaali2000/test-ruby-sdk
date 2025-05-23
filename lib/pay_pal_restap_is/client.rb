@@ -41,8 +41,8 @@ module PayPalRestapIs
     def initialize(
       connection: nil, adapter: :net_http_persistent, timeout: 60,
       max_retries: 0, retry_interval: 1, backoff_factor: 2,
-      retry_statuses: [408, 413, 429, 500, 502, 503, 504, 521, 522, 524, 408, 413, 429, 500, 502, 503, 504, 521, 522, 524],
-      retry_methods: %i[get put get put], http_callback: nil,
+      retry_statuses: [408, 413, 429, 500, 502, 503, 504, 521, 522, 524],
+      retry_methods: %i[get put], http_callback: nil,
       logging_configuration: nil, environment: Environment::SANDBOX,
       o_auth_client_id: nil, o_auth_client_secret: nil, o_auth_token: nil,
       client_credentials_auth_credentials: nil, config: nil

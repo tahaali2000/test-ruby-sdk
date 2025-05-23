@@ -16,13 +16,15 @@ module PayPalRestapIs
     # error handling and troubleshooting, see <a
     # href="/api/rest/reference/orders/v2/errors/#create-order">Orders v2
     # errors</a>.</blockquote>
-    # @param [OrderRequest] body Required parameter: Example:
+    # @param [OrderRequest] body Required parameter: TODO: type description
+    # here
     # @param [String] pay_pal_request_id Optional parameter: The server stores
     # keys for 6 hours. The API callers can request the times to up to 72 hours
     # by speaking to their Account Manager.
-    # @param [String] pay_pal_partner_attribution_id Optional parameter:
-    # Example:
-    # @param [String] pay_pal_client_metadata_id Optional parameter: Example:
+    # @param [String] pay_pal_partner_attribution_id Optional parameter: TODO:
+    # type description here
+    # @param [String] pay_pal_client_metadata_id Optional parameter: TODO: type
+    # description here
     # @param [String] prefer Optional parameter: The preferred server response
     # upon successful completion of the request. Value
     # is:<ul><li><code>return=minimal</code>. The server returns a minimal
@@ -164,7 +166,8 @@ module PayPalRestapIs
     # remove</td><td></td></tr><tr><td><code>application_context.client_configur
     # ation</code></td><td>replace, add</td><td></td></tr></tbody></table>
     # @param [String] id Required parameter: The ID of the order to update.
-    # @param [Array[Patch]] body Optional parameter: Example:
+    # @param [Array[Patch]] body Optional parameter: TODO: type description
+    # here
     # @return [void] response from the API call.
     def orders_patch(options = {})
       new_api_call_builder
@@ -204,7 +207,8 @@ module PayPalRestapIs
     # payment source.
     # @param [String] id Required parameter: The ID of the order for which the
     # payer confirms their intent to pay.
-    # @param [String] pay_pal_client_metadata_id Optional parameter: Example:
+    # @param [String] pay_pal_client_metadata_id Optional parameter: TODO: type
+    # description here
     # @param [String] prefer Optional parameter: The preferred server response
     # upon successful completion of the request. Value
     # is:<ul><li><code>return=minimal</code>. The server returns a minimal
@@ -213,7 +217,8 @@ module PayPalRestapIs
     # HATEOAS links.</li><li><code>return=representation</code>. The server
     # returns a complete resource representation, including the current state of
     # the resource.</li></ul>
-    # @param [ConfirmOrderRequest] body Optional parameter: Example:
+    # @param [ConfirmOrderRequest] body Optional parameter: TODO: type
+    # description here
     # @return [Order] response from the API call.
     def orders_confirm(options = {})
       new_api_call_builder
@@ -273,13 +278,15 @@ module PayPalRestapIs
     # HATEOAS links.</li><li><code>return=representation</code>. The server
     # returns a complete resource representation, including the current state of
     # the resource.</li></ul>
-    # @param [String] pay_pal_client_metadata_id Optional parameter: Example:
+    # @param [String] pay_pal_client_metadata_id Optional parameter: TODO: type
+    # description here
     # @param [String] pay_pal_auth_assertion Optional parameter: An
     # API-caller-provided JSON Web Token (JWT) assertion that identifies the
     # merchant. For details, see <a
     # href="/api/rest/requests/#paypal-auth-assertion">PayPal-Auth-Assertion</a>
     # .
-    # @param [OrderAuthorizeRequest] body Optional parameter: Example:
+    # @param [OrderAuthorizeRequest] body Optional parameter: TODO: type
+    # description here
     # @return [OrderAuthorizeResponse] response from the API call.
     def orders_authorize(options = {})
       new_api_call_builder
@@ -349,13 +356,15 @@ module PayPalRestapIs
     # HATEOAS links.</li><li><code>return=representation</code>. The server
     # returns a complete resource representation, including the current state of
     # the resource.</li></ul>
-    # @param [String] pay_pal_client_metadata_id Optional parameter: Example:
+    # @param [String] pay_pal_client_metadata_id Optional parameter: TODO: type
+    # description here
     # @param [String] pay_pal_auth_assertion Optional parameter: An
     # API-caller-provided JSON Web Token (JWT) assertion that identifies the
     # merchant. For details, see <a
     # href="/api/rest/requests/#paypal-auth-assertion">PayPal-Auth-Assertion</a>
     # .
-    # @param [OrderCaptureRequest] body Optional parameter: Example:
+    # @param [OrderCaptureRequest] body Optional parameter: TODO: type
+    # description here
     # @return [Order] response from the API call.
     def orders_capture(options = {})
       new_api_call_builder
@@ -407,7 +416,8 @@ module PayPalRestapIs
     # Adds tracking information for an Order.
     # @param [String] id Required parameter: The ID of the order that the
     # tracking information is associated with.
-    # @param [OrderTrackerRequest] body Required parameter: Example:
+    # @param [OrderTrackerRequest] body Required parameter: TODO: type
+    # description here
     # @param [String] pay_pal_auth_assertion Optional parameter: An
     # API-caller-provided JSON Web Token (JWT) assertion that identifies the
     # merchant. For details, see <a
@@ -466,7 +476,8 @@ module PayPalRestapIs
     # @param [String] id Required parameter: The ID of the order that the
     # tracking information is associated with.
     # @param [String] tracker_id Required parameter: The order tracking ID.
-    # @param [Array[Patch]] body Optional parameter: Example:
+    # @param [Array[Patch]] body Optional parameter: TODO: type description
+    # here
     # @return [void] response from the API call.
     def orders_trackers_patch(options = {})
       new_api_call_builder

@@ -55,7 +55,8 @@ module PayPalRestapIs
     # HATEOAS links.</li><li><code>return=representation</code>. The server
     # returns a complete resource representation, including the current state of
     # the resource.</li></ul>
-    # @param [CaptureRequest] body Optional parameter: Example:
+    # @param [CaptureRequest] body Optional parameter: TODO: type description
+    # here
     # @return [CapturedPayment] response from the API call.
     def authorizations_capture(options = {})
       new_api_call_builder
@@ -128,7 +129,8 @@ module PayPalRestapIs
     # HATEOAS links.</li><li><code>return=representation</code>. The server
     # returns a complete resource representation, including the current state of
     # the resource.</li></ul>
-    # @param [ReauthorizeRequest] body Optional parameter: Example:
+    # @param [ReauthorizeRequest] body Optional parameter: TODO: type
+    # description here
     # @return [PaymentAuthorization] response from the API call.
     def authorizations_reauthorize(options = {})
       new_api_call_builder
@@ -302,7 +304,8 @@ module PayPalRestapIs
     # which a partner is managing the API calls on behalf of a merchant, the
     # partner must identify the merchant using either a PayPal-Auth-Assertion
     # header or an access token with target_subject.</blockquote>
-    # @param [RefundRequest] body Optional parameter: Example:
+    # @param [RefundRequest] body Optional parameter: TODO: type description
+    # here
     # @return [Refund] response from the API call.
     def captures_refund(options = {})
       new_api_call_builder
